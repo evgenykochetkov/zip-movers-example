@@ -1,0 +1,45 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 420px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 2em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 26px;
+}
+
+.help {
+  font-size: 0.9em;
+}
+
+.root {
+  padding-left: 0;
+}
+
+.item {
+  padding-left: 5px;
+}
+
+.selected {
+  color: white;
+  background-color: #09f;
+}
